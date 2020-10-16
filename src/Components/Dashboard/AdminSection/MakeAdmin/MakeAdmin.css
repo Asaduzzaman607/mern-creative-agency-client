@@ -1,0 +1,19 @@
+.make-admin-container {
+  background-color: #f4f7fc;
+  height: calc(100vh - 80px);
+}
+
+.make-admin-container input {
+  width: 450px;
+  height: 40px;
+  display: inline;
+}
+
+.make-admin-container button {
+  height: 40px;
+  transform: translateY(-1px);
+}
+
+.make-admin-container input::placeholder {
+  color: #c9c9c9;
+}

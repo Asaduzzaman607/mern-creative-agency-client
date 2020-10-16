@@ -1,0 +1,4 @@
+.review-container {
+  background-color: #e5e5e5;
+  height: calc(100vh - 80px);
+}

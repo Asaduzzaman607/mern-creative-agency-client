@@ -1,0 +1,17 @@
+.service-list {
+  background-color: #f4f7fc;
+  height: calc(100vh - 80px);
+}
+
+.all-services {
+  background-color: #ffffff;
+  border-radius: 20px;
+  height: 100%;
+  overflow-x: scroll;
+}
+
+.all-services thead tr {
+  height: 54px;
+  background: #f5f6fa;
+  border-radius: 30px !important;
+}

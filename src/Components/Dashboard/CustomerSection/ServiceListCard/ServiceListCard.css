@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+.order-body {
+  display: inline;
+}
+.order-cards {
+  display: inline-block;
+  width: 415px;
+  height: 254px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f4f7fc;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .order-body {
+  }
+  .order-cards {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+  }
+}
+.order-images {
+  width: 74px;
+  height: 74px;
+  display: block;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.order-cards h4 {
+  font-weight: 800;
+}
+.order-cards p {
+  font-weight: 300;
+}

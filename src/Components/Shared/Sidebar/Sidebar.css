@@ -1,0 +1,20 @@
+.sidebar {
+  height: 95vh;
+}
+.li-color:hover {
+  color: #009444;
+}
+.ul-style {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+.sidebar-logo {
+  width: 150px;
+  height: 47px;
+}
+
+.sidebar li,
+.sidebar img {
+  cursor: pointer;
+}

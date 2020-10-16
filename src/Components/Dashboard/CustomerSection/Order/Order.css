@@ -1,0 +1,49 @@
+.order-container {
+  background: #f4f7fc;
+}
+
+.order-form {
+  /* width: 570px; */
+}
+
+.order-form input {
+  height: 60px;
+}
+
+.order-form input[type="number"] {
+  width: 270px;
+}
+
+.order-form input[type="file"] {
+  width: 270px;
+  transform: translateY(-9px);
+}
+
+.order-form button {
+  height: 60px;
+  width: 170px;
+}
+
+.order-form input::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.order-form textarea::placeholder {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+#upload-label {
+  height: 60px;
+  transform: translateY(-1px);
+  padding-top: 17px;
+}
+@media screen and (max-width: 576px) {
+  #upload-label {
+    transform: translateY(-10px);
+    margin-right: 15px;
+  }
+}
+.file-container {
+  position: relative;
+  bottom: 20px;
+}

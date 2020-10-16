@@ -1,0 +1,41 @@
+.client-feedback {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 54px;
+  margin: 20px;
+  padding: 20px;
+  /* identical to box height */
+
+  /* #171B4E */
+}
+.client {
+  color: #171b4e;
+}
+
+.feedback {
+  color: #7ab259;
+}
+.feedback-card {
+  width: 350px;
+  height: 212px;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 576px) {
+  .feedback-card {
+    width: 320px;
+    margin: auto;
+  }
+}
+
+.feedback-card img {
+  width: 64px;
+}
+
+.name-container {
+  transform: translateY(10px);
+}
